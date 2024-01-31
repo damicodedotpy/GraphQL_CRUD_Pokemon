@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="H7Mglei3nW_4X7iXaiVd" name="Page-1">
+        <mxGraphModel dx="666" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Types&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="380" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Pokemon&lt;br&gt;&lt;br&gt;- id: ID!&lt;br&gt;- name: String!&lt;br&gt;- gen: Number&lt;br&gt;- type: String!&lt;br&gt;&lt;div style=&quot;&quot;&gt;- evolution: Boolean&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- trainer: Trainer&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- image: String&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="120" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Querys&lt;br&gt;&lt;br&gt;- getTrainers: [Trainers]&lt;br&gt;- getTrainer(id: ID!): Trainer&lt;br&gt;- getPokemons: [Pokemon]&lt;br&gt;- getPokemon(id: ID!): Pokemon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="320" width="380" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Mutations&lt;br&gt;&lt;br&gt;- addTrainer(trainerInfo: TrainerInfo): Trainer&lt;br&gt;- updateTrainer(trainerInfo: TrainerInfo): Trainer&lt;br&gt;- deleteTrainer(basicInfo: BasicInfo): Trainer&lt;br&gt;- addPokemon(pokemonInfo: PokemonInfo): Pokemon&amp;nbsp;&lt;br&gt;- updatePokemon(pokemonInfo: PokemonInfo): Pokemon&lt;br&gt;- deletePokemon(basicInfo: BasicInfo): Pokemon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="320" width="580" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Inputs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="40" width="580" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="PokemonInfo&lt;br&gt;&lt;br&gt;- id: ID!&lt;br&gt;- name: String!&lt;br&gt;- gen: Number&lt;br&gt;- type: String!&lt;br&gt;&lt;div style=&quot;&quot;&gt;- evolution: Boolean&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- trainer: Trainer&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Image: String&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="120" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="BasicInfo&lt;br&gt;&lt;br&gt;- id: ID!&lt;br&gt;- name: String!" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="120" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Trainer&lt;br&gt;&lt;br&gt;- id: ID!&lt;br&gt;- email: String!&lt;br&gt;- password: String!&lt;br&gt;- name: String!&lt;br&gt;- genre: String&lt;br&gt;- type: String&lt;br&gt;- badges: Number&lt;br&gt;&lt;div style=&quot;&quot;&gt;- pokemon: [Pokemon]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Image: String&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="TrainerInfo&lt;br&gt;&lt;br&gt;- id: ID!&lt;br&gt;- email: String!&lt;br&gt;- password: String!&lt;br&gt;- name: String!&lt;br&gt;- genre: String&lt;br&gt;- type: String&lt;br&gt;- badges: Number&lt;br&gt;&lt;div style=&quot;&quot;&gt;- pokemon: [Pokemon]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Image: String&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="120" width="180" height="180" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
